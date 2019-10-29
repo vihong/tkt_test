@@ -7,7 +7,10 @@ body {
 
 #showcase {
   background-color: #f08080;
-  height: 90vh;
+  height: 110vh;
+  background-image: url(../img-tkt/background-image_homepage.jpg);
+  background-position: center right;
+  background-size: cover;
 }
 
 #header {
@@ -36,7 +39,6 @@ body {
 #showcaseContent {
   height: 100vh;
   border: 1px solid green;
-  background-color: green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
