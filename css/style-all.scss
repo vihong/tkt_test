@@ -1,0 +1,75 @@
+$colors: (
+  primary: #deae3c,
+  secondary: #28272c,
+  sky-blue: #91c9dc,
+  //GARDE_FOU
+    html_background_color: #4472c4
+);
+
+@function color($colorName) {
+  @return map-get($colors, $colorName);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: color(html_background_color);
+}
+
+//------------------------------- TEST GARDE-FOU -------------------------------//
+#showcase {
+  background-color: #f08080;
+  height: 90vh;
+
+  // background-image: url(../img-obubble/barista-bg.jpg);
+//   background-image: url(../img-obubble/bbt-showcase-alone.jpg);
+//   background-position: center right;
+//   background-size: cover;
+}
+
+#header {
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    margin : auto 10%;
+}
+
+#logo{
+    height: 10vh;
+    border: 1px solid red; 
+    background-color: red;
+    width: 20%;
+}
+
+#nav{
+    height: 10vh;
+    border: 1px solid blue;
+    background-color: blue;
+    width: 80%;
+}
+
+
+//------------------------------- FIN TEST GARDE-FOU  -------------------------------//
+
+
+//------------------------------- SPECIFIC -------------------------------//
+
+#showcaseContent{
+    height: 100vh;
+    border: 1px solid green;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcaseMessage{
+    height: 10vh;
+    border: 1px solid pink;
+    background-color: pink;    
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

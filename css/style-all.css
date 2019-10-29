@@ -1,0 +1,66 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4472c4;
+}
+
+#showcase {
+  background-color: #f08080;
+  height: 90vh;
+}
+
+#header {
+  height: 10vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto 10%;
+}
+
+#logo {
+  height: 10vh;
+  border: 1px solid red;
+  background-color: red;
+  width: 20%;
+}
+
+#nav {
+  height: 10vh;
+  border: 1px solid blue;
+  background-color: blue;
+  width: 80%;
+}
+
+#showcaseContent {
+  height: 100vh;
+  border: 1px solid green;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcaseMessage {
+  height: 10vh;
+  border: 1px solid pink;
+  background-color: pink;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style-all.css.map */
