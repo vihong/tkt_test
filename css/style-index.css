@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Parisienne&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4472c4;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#showcase {
+  background-image: url(../img-tkt/background-image_homepage2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#showcaseContent {
+  height: 100vh;
+  border: 1px solid green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#showcaseMessage {
+  border: 1px solid pink;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #74C7D5;
+  font-size: 2rem;
+  padding: 10px 40px 10px 20px;
+  text-transform: uppercase;
+}
+
+#showcaseMessage .leftSide {
+  margin: 0;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  font-weight: lighter;
+  display: inline-block;
+  text-align: end;
+  line-height: 180%;
+}
+
+#showcaseMessage .leftSide h1 {
+  margin: 0;
+  font-size: 2.8rem;
+  line-height: 100%;
+}
+
+#showcaseMessage .leftSide span {
+  text-transform: lowercase;
+}
+
+#showcaseMessage .rightSide {
+  margin: 0;
+  padding-left: 10px;
+}
+
+#showcaseMessage .rightSide h1 {
+  margin: 0;
+  font-size: 7rem;
+}
+/*# sourceMappingURL=style-index.css.map */

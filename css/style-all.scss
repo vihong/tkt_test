@@ -1,9 +1,8 @@
 $colors: (
-  primary: #deae3c,
-  secondary: #28272c,
-  sky-blue: #91c9dc,
-  //GARDE_FOU
-    html_background_color: #4472c4
+  html_background_color: #4472c4,
+  blue_navlinks: #74c7d5,
+  red_navlinks: #dc5b63,
+  red_navlinks_background: #b24a50
 );
 
 @function color($colorName) {
@@ -15,60 +14,114 @@ body {
   margin: 0;
   padding: 0;
   background-color: color(html_background_color);
+  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
+
+img {
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap");
 
 //------------------------------- TEST GARDE-FOU -------------------------------//
 #showcase {
   background-color: #f08080;
-  height: 110vh;
-
-  background-image: url(../img-tkt/background-image_homepage.jpg);
-  background-position: center right;
-  background-size: cover;
+  height: 108vh;
 }
 
 #header {
-    height: 10vh;
-    background-color: transparent;
-    display: flex;
-    margin : auto 10%;
+  height: 8vh;
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto 19%; //(1-(1000/1600))/2 = 18,75%
 }
 
-#logo{
-    height: 10vh;
-    border: 1px solid red; 
-    background-color: red;
-    width: 20%;
+#logo {
+  height: 8vh;
+  // border: 1px solid red;
+  // background-color: red;
+  width: 20%;
+  cursor: pointer;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.7rem;
+  a {
+    margin-bottom: 0;
+    // padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+  }
 }
 
-#nav{
-    height: 10vh;
-    border: 1px solid blue;
-    background-color: blue;
-    width: 80%;
+#nav {
+  height: 8vh;
+  // border: 1px solid blue;
+  // background-color: blue;
+  // width: 50px;
+  display: flex;
+  align-items: flex-end;
+  .nav_links {
+    text-decoration: none;
+    list-style: none;
+    // margin-right: 20px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    li {
+      display: inline-block;
+      padding: 70px 20px 10px 20px;
+      // background-color: color(blue_navlinks);
+      border-radius: 0 0 3px 3px;
+      transition: all 0.3s ease 0s;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+      }
+      a:hover {
+        color: lightgrey;
+      }
+    }
+  }
 }
-
 
 //------------------------------- FIN TEST GARDE-FOU  -------------------------------//
 
+//------------------------------- INTRODUCTION TEXT  -------------------------------//
 
-//------------------------------- SPECIFIC -------------------------------//
-
-#showcaseContent{
-    height: 100vh;
-    border: 1px solid green;
-    // background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container {
+  margin: auto 19%;
+  margin-top: 4rem;
 }
 
-#showcaseMessage{
-    height: 10vh;
-    border: 1px solid pink;
-    background-color: pink;    
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.intoductionText {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    span{
+      color: rgb(149, 137, 137);
+    }
+  }
+  p {
+    font-size: 1rem;
+    color: lightgray;
+  }
 }

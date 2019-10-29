@@ -1,68 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap");
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: #4472c4;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 #showcase {
   background-color: #f08080;
-  height: 110vh;
-  background-image: url(../img-tkt/background-image_homepage.jpg);
-  background-position: center right;
-  background-size: cover;
+  height: 108vh;
 }
 
 #header {
-  height: 10vh;
+  height: 8vh;
   background-color: transparent;
+  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: auto 10%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 19%;
 }
 
 #logo {
-  height: 10vh;
-  border: 1px solid red;
-  background-color: red;
+  height: 8vh;
   width: 20%;
+  cursor: pointer;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: "Pacifico", cursive;
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.7rem;
+}
+
+#logo a {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: white;
 }
 
 #nav {
-  height: 10vh;
-  border: 1px solid blue;
-  background-color: blue;
-  width: 80%;
-}
-
-#showcaseContent {
-  height: 100vh;
-  border: 1px solid green;
+  height: 8vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
-#showcaseMessage {
-  height: 10vh;
-  border: 1px solid pink;
-  background-color: pink;
-  width: 40%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#nav .nav_links {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#nav .nav_links li {
+  display: inline-block;
+  padding: 70px 20px 10px 20px;
+  border-radius: 0 0 3px 3px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+#nav .nav_links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+#nav .nav_links li a:hover {
+  color: lightgrey;
+}
+
+.container {
+  margin: auto 19%;
+  margin-top: 4rem;
+}
+
+.intoductionText {
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+.intoductionText h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.intoductionText h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.intoductionText h3 span {
+  color: #958989;
+}
+
+.intoductionText p {
+  font-size: 1rem;
+  color: lightgray;
 }
 /*# sourceMappingURL=style-all.css.map */
