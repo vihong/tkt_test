@@ -22,7 +22,6 @@ img {
 #header {
   height: 8vh;
   background-color: transparent;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,14 +98,15 @@ img {
 }
 
 .container {
-  margin: auto 19%;
-  margin-top: 4rem;
+  width: 62%;
+  height: 92vh;
 }
 
 .intoductionText {
   text-align: center;
   color: white;
   font-weight: lighter;
+  margin: 4rem auto;
 }
 
 .intoductionText h2 {

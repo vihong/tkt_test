@@ -1,7 +1,8 @@
 $colors: (
   blue_homepage: #74c7d5,
   red_navlinks: #dc5b63,
-  red_navlinks_background: #B24A50
+  red_navlinks_background: #b24a50,
+  red_boxes: #c45158
 );
 
 @function color($colorName) {
@@ -25,6 +26,34 @@ img {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Parisienne&display=swap");
 
 //------------------------------- SPECIFIC -------------------------------//
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: color(red_boxes);
+  img {
+    background: #fff;
+    border: 2px solid red;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+  }
+  p {
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+}
+
+.cardContainer {
+  padding-right: 8px;
+  padding-left: 8px;
+  margin-top: 1rem;
+}

@@ -34,7 +34,7 @@ img {
 #header {
   height: 8vh;
   background-color: transparent;
-  border: 1px solid black;
+  // border: 1px solid blacchk;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -101,14 +101,15 @@ img {
 //------------------------------- INTRODUCTION TEXT  -------------------------------//
 
 .container {
-  margin: auto 19%;
-  margin-top: 4rem;
+  width: 62%;
+  height: 92vh;
 }
 
 .intoductionText {
   text-align: center;
   color: white;
   font-weight: lighter;
+  margin: 4rem auto;
   h2{
     font-size: 3rem;
     margin-bottom: 2rem;
