@@ -5,7 +5,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-family: "Lato", sans-serif;
-  background: #84A558;
+  background: #75B4AA;
 }
 
 img {
@@ -36,8 +36,6 @@ hr {
   color: white;
   margin-right: auto;
   margin-bottom: 0;
-  font-size: 1rem;
-  margin-left: 15px;
 }
 
 .portfolioSection .portfolio_nav_links li {
@@ -58,22 +56,47 @@ hr {
   background-color: #F5C149;
 }
 
-p {
-  font-size: 0.7rem;
-  color: #9c9898;
+#footer {
+  height: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #68A097;
 }
 
-.card-body {
-  padding: 10px;
+.fab {
+  padding: 15px;
+  font-size: 25px;
+  width: 58px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: auto 15px;
 }
 
-.pokemon {
-  padding: 5px;
+.fa-facebook-f {
+  background: #82C8BD;
+  color: white;
 }
 
-#photosGallery {
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+.fa-twitter {
+  background: #82C8BD;
+  color: white;
 }
-/*# sourceMappingURL=style-work.css.map */
+
+.fa-google-plus-g {
+  background: #82C8BD;
+  color: white;
+}
+
+.fa-linkedin-in {
+  background: #82C8BD;
+  color: white;
+}
+/*# sourceMappingURL=style-contacts.css.map */

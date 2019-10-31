@@ -10,7 +10,10 @@ $colors: (
   green_navlinks: #A1C96C,
   green_navlinks_background: #84A558,
   hr_color: rgb(167, 207, 115),
-  portfolio_tab: #F5C149
+  portfolio_tab: #F5C149,
+  turquoise_navlinks: #82C8BD,
+  turquoise_navlinks_background: #75B4AA,
+  turquoise_boxes: #68A097,
 );
 
 @function color($colorName) {
@@ -26,7 +29,7 @@ body {
   font-family: "Lato", sans-serif;
   //   background-image: url(../img-tkt/background-image_homepage.jpg);
   //   background-size: cover;
-  background: color(green_navlinks_background);
+  background: color(turquoise_navlinks_background);
 //   background: url(../img-tkt/bg-head.png);
 //   background: url(../img-tkt/img-bg1.png);
 }
@@ -58,8 +61,6 @@ hr{
     color: white;
     margin-right: auto;
     margin-bottom: 0;
-    font-size: 1rem;
-    margin-left: 15px;
   }
   .portfolio_nav_links li{
     display: inline;
@@ -78,22 +79,43 @@ hr{
   }
 }
 
-p{
-  font-size: 0.7rem;
-  color: rgb(156, 152, 152);
+
+#footer{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: color(turquoise_boxes);
 }
 
 
-.card-body{
-  padding: 10px;
+.fab {
+  padding: 15px;
+  font-size: 25px;
+  width: 58px;
   text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: auto 15px;
 }
 
-.pokemon{
-  padding: 5px;
+.fa-facebook-f {
+  background: color(turquoise_navlinks);
+  color: white;
+} 
+
+.fa-twitter {
+  background: color(turquoise_navlinks);
+  color: white;
 }
 
-#photosGallery{
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+.fa-google-plus-g {
+  background: color(turquoise_navlinks);
+  color: white;
 }
+
+.fa-linkedin-in {
+  background: color(turquoise_navlinks);
+  color: white;
+}
+
