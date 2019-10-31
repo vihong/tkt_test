@@ -52,6 +52,7 @@ hr {
 .portfolioSection .portfolio_nav_links li a {
   text-decoration: none;
   color: white;
+  font-size: 0.8rem;
 }
 
 .portfolioSection .portfolio_nav_links li:hover, .portfolioSection .portfolio_nav_links li:target {
@@ -68,7 +69,7 @@ p {
   text-align: center;
 }
 
-.pokemon {
+.cardContainer {
   padding: 5px;
 }
 
