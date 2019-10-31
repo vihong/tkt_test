@@ -19,6 +19,8 @@ body {
   //   background-image: url(../img-tkt/background-image_homepage.jpg);
   //   background-size: cover;
   background: color(red_navlinks_background);
+//   background: url(../img-tkt/bg-head.png);
+//   background: url(../img-tkt/img-bg1.png);
 }
 
 img {
@@ -28,6 +30,10 @@ img {
 @import url("https://fonts.googleapis.com/css?family=Lato|Pacifico&display=swap");
 
 //------------------------------- SPECIFIC -------------------------------//
+
+// .card{
+//   border: color(red_boxes);
+// }
 
 .card-body {
   display: flex;
